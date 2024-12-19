@@ -1,0 +1,22 @@
+[project]
+name = "mvg-rad"
+version = "0.1.0"
+description = "Explore MVG Rad data"
+readme = "README.md"
+requires-python = ">=3.13"
+dependencies = [
+    "cartopy>=0.24.1",
+    "jupyter>=1.1.1",
+    "matplotlib>=3.10.0",
+    "numpy>=2.2.0",
+    "polars>=1.17.1",
+    "pyarrow>=18.1.0",
+    "pyproj>=3.7.0",
+    "scipy>=1.14.1",
+]
+
+[dependency-groups]
+dev = [
+    "pyright>=1.1.391",
+    "ruff>=0.8.4",
+]
